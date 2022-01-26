@@ -20,8 +20,8 @@ def help(update: Update, context: CallbackContext) -> None:
     initial_message += "*3.* Each guess must be an existent word.\n"
     initial_message += "*4.* Each time you guess a word, the letters of it will have one of the following colors:\n"
     initial_message += "\n"
-    initial_message += "`  `- 🟧 Orange: the letter is in the right place.\n"
-    initial_message += "`  `- 🟦 Blue: the letter is on the word, but in the wrong place.\n"
+    initial_message += "`  `- 🟩 Green: the letter is in the right place.\n"
+    initial_message += "`  `- 🟪 Purple: the letter is on the word, but in the wrong place.\n"
     initial_message += "`  `- ⬛ Black: the letter isn't on the word.\n"
     initial_message += "\n"
     initial_message += "*5.* If you are not able to guess the word after 6 tries, you loose."
@@ -30,7 +30,9 @@ def help(update: Update, context: CallbackContext) -> None:
 
 
 def start(update: Update, context: CallbackContext) -> None:
-    welcome_message = "Welcome! This is a bot for the game Pyal, inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/).\n"
+    welcome_message = (
+        "Welcome! This is a bot for the game Pyal, inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/).\n"
+    )
     welcome_message += "\n"
     welcome_message += "To play, use /play."
 

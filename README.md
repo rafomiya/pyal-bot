@@ -19,4 +19,4 @@ Differently from the original game, you can play it multiple times a day, but th
 
 ## Start playing!
 
-All you have to do is send `/start` to [@pyal_bot](t.me/pyal_bot).
+All you have to do is send `/start` to [@pyal_bot](t.me/pyal_bot) on Telegram.
