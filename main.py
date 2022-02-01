@@ -41,7 +41,6 @@ def main():
         url_path=TELEGRAM_BOT_TOKEN,
         webhook_url="https://pyal.herokuapp.com/" + TELEGRAM_BOT_TOKEN,
     )
-
     updater.idle()
 
 
