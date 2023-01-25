@@ -1,5 +1,7 @@
 # Pyal Telegram Bot
 
+![image](https://user-images.githubusercontent.com/76710601/214673709-e7865b23-cb79-4bfb-b274-78105848c781.png)
+
 This is a simple telegram bot for the game Pyal, a word guessing game inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/).
 
 ## How does it work?
